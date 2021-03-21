@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.mappers.memberMapper">
+
+	<insert id="insert">
+		INSERT INTO s_member(userId, userPw, userName, userPhone)
+		VALUES(#{userId}, #{userPw}, #{userName}, #{userPhone})
+	</insert>
+	
+	<select id="login" resultType="kr.co.domain.MemberVO">
+		SELECT userId, userPw, userName, userPhone, userAdd1, userAdd2, userAdd3, regiDate, verify
+		FROM s_member WHERE userId = #{userId}
+	</select>
+</mapper>
