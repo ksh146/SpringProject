@@ -258,5 +258,5 @@ public class ShopController {
 		
 		model.addAttribute("orderView", orderView);
 	}
-
+	
 }
