@@ -18,7 +18,7 @@
 	</insert>
 	
 	<!-- 상품 목록 -->	
-	<!-- <select id="sockslist" resultType="kr.co.domain.SocksVO">
+	<!-- <select id="socksList" resultType="kr.co.domain.SocksVO">
 		SELECT socksNum, socksName, cateCode, socksPrice, socksStock, socksDes, socksImg, socksDate
 		FROM s_socks ORDER BY socksNum DESC
 	</select> -->

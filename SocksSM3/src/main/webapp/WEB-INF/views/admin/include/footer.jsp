@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <ul>
 	<li>이젠 쇼핑몰</li>
-	<li>메일: ezen@ezen.co.kr</li>
-	<li>대표: 이젠</li>
+	<li>메일: ksh146@naver.com</li>
+	<li>대표: 김승훈</li>
 	<li>사업자 등록번호: 111-11-11111</li>
 	<li>대표번호: 010-0000-0000</li>
 	<li>팩스번호: 02-222-2222</li>
