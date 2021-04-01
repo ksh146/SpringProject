@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.kubg.controller">
+	<logger name="kr.co.ezen">
 		<level value="info" />
 	</logger>
 	

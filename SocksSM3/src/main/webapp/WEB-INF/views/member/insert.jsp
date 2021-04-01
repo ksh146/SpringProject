@@ -194,13 +194,13 @@
 		</div>
 		
 		<div class="input_area">
-			<label for="userName">닉네임</label>
-			<input type="text" id="userName" name="userName" placeholder="닉네임을 입력해주세요" required="required" />						
+			<label for="userName">이름</label>
+			<input type="text" id="userName" name="userName" placeholder="이름을 입력해주세요" required="required" />						
 		</div>
 		
 		<div class="input_area">
-			<label for="userPhone">연락처</label>
-			<input type="text" id="userPhone" name="userPhone" placeholder="연락처를 입력해주세요" required="required" />						
+			<label for="userPhone">전화번호</label>
+			<input type="text" id="userPhone" name="userPhone" placeholder="전화번호를 입력해주세요" required="required" />						
 		</div>
 		
 		<button type="submit" id="insert_btn" name="insert_btn">회원가입</button>

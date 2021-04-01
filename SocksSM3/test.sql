@@ -39,7 +39,7 @@ REFERENCES socks_category(cateCode);
 CREATE SEQUENCE s_socks_seq;
 
 INSERT INTO s_member(userId, userPw, userName, userPhone)
-VALUES('아이디', '패스워드', '별명', '전화번호');
+VALUES('아이디', '패스워드', '이름', '전화번호');
 
 INSERT INTO socks_category (cateName, cateCode) VALUES ('man', '100');
 INSERT INTO socks_category (cateName, cateCode, cateCodeRef) VALUES ('man1', '101', '100');
